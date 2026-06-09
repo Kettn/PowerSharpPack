@@ -1,6 +1,10 @@
+# Sponsored by
+
+[<img src="https://github.com/S3cur3Th1sSh1t/PowerSharpPack/raw/master/images/happy_alp.png" width="300" height="300">](https://www.bluebastion.net/) &emsp; &emsp; &emsp;
+
 # PowerSharpPack
 
-Many usefull offensive CSharp Projects wraped into Powershell for easy usage.
+Many useful offensive CSharp Projects wraped into Powershell for easy usage.
 
 Why? In my personal opinion offensive Powershell is not dead because of AMSI, Script-block-logging, Constrained Language Mode or other protection features. Any of these mechanisms can be bypassed. Since most new innovative offensive security projects are written in C# I decided to make them usable in powershell as well.
 
@@ -233,6 +237,12 @@ Projects which are also available as standalone powershell script:
  
  @Credit to: https://github.com/BloodHoundAD/SharpHound3
 
+**PostDump**
+
+Another tool to perform minidump of LSASS process using few technics to avoid detection.
+
+@Credit to: https://github.com/YOLOP0wn/POSTDump
+
  **SharpLocker**
 
  SharpLocker helps get current user credentials by popping a fake Windows lock screen, all output is sent to Console which works perfect for Cobalt Strike.
@@ -418,6 +428,60 @@ Tool for interacting with outlook interop during red team engagements
 Whisker is a C# tool for taking over Active Directory user and computer accounts by manipulating their msDS-KeyCredentialLink attribute, effectively adding "Shadow Credentials" to the target account. 
 
 @Credit to: https://github.com/eladshamir/Whisker
+
+**SharpLdapRelayScan**
+
+C# Port of LdapRelayScan
+
+@Credit to: https://github.com/klezVirus/SharpLdapRelayScan
+
+**LdapSignCheck**
+
+C# project to check LDAP signing.
+
+@Credit to: https://github.com/cube0x0/LdapSignCheck
+
+**SharpImpersonation**
+
+SharpImpersonation - A User Impersonation tool - via Token or Shellcode injection.
+
+@Credit to: https://github.com/S3cur3Th1sSh1t/SharpImpersonation
+
+**SharpWSUS**
+
+SharpWSUS is a CSharp tool for lateral movement through WSUS. There is a corresponding blog (https://labs.nettitude.com/blog/introducing-sharpwsus/) which has more detailed information about the tooling, use case and detection.
+
+@Credit to: https://github.com/nettitude/SharpWSUS
+
+**MalSCCM**
+
+This tool allows you to abuse local or remote SCCM servers to deploy malicious applications to hosts they manage. To use this tool your current process must have admin rights over the SCCM server. Typically deployments of SCCM will either have the management server and the primary server on the same host, in which case the host returned from the locate command can be used as the primary server.
+
+@Credit to: https://github.com/nettitude/MalSCCM
+
+**KrbRelay**
+
+Framework for Kerberos relaying
+
+@Credit to: https://github.com/cube0x0/KrbRelay
+
+**SharpSCCM**
+
+A C# utility for interacting with SCCM 
+
+@Credit: https://github.com/Mayyhem/SharpSCCM
+
+**ShadowSpray**
+
+A tool to spray Shadow Credentials across an entire domain in hopes of abusing long forgotten GenericWrite/GenericAll DACLs over other objects in the domain.
+
+@Credit: https://github.com/Dec0ne/ShadowSpray
+
+**Grouper3**
+
+Find vulnerabilities in AD Group Policy, but do it better than Grouper2 did.
+
+@Credit to: https://github.com/Group3r/Group3r
 
 #### _The last two are basically no Assemblies. But I did built an Assembly to execute them from memory, which is loadable via the technique from this repo. Another technique in the background for execution, but still usefull_:
 
